@@ -11,17 +11,23 @@
 * {
   box-sizing: border-box;
 }
+  
 h1 {
   margin-bottom: 10px;
 
+}
+div{
+  position:relative;
 }
 
 p {
   border: 1px solid black;
   background-color: #808080;
   padding: 30px;
-  width: 90%;
+  width: 80%;
   height: 150px;
+  font-size:70%;
+  
   margin-right: auto;
   margin-left: auto;
   margin-bottom:10px;
@@ -38,65 +44,68 @@ p {
 #chicken {
   border: 1px solid black;
   background-color:#FFB6C1;
-  width:15%;
+  width:20%;
   height: 30px;
   position:relative;
-  bottom:-40px;
-  right:-657px;
+  float:right;
+  left:-10%;
   font-family: Helvetica;
   color: black;
-  font-size:20px;
+  font-size:70%;
   text-align:center
+
 
 } 
 #beef {
   border: 1px solid black;
   background-color: #A52A2A;
-  width:15%;
+  width:20%;
   height: 30px;
   position:relative;
-  bottom:-40px;
-  right:-657px;
+  float:right;
+  left:-10%;
   font-family: Helvetica;
   color: black;
-  font-size:20px;
+  font-size:70%;
   text-align:center
+
 
 }
 #sushi {
   border: 1px solid black;
   background-color: #FFFACD;
-  width:15%;
+  width:20%;
   height: 30px;
   position:relative;
-  bottom:-40px;
-  right:-657px;
+  float:right;
+  left:-10%;
   font-family: Helvetica;
   color: black;
-  font-size:20px;
+  font-size:70%;
   text-align:center
-
 }
 /* Simple Responsive Framework. */
-.row {
-  width: 100%;
-}
-  </style>
+
+</style>
 </head>
 <body>
-<div>
 <h1 id="menu">Our Menu</h1>
+<div class="column-lg-12 column-md-5 column-sd-12">
 <h1 id="chicken">Chicken</h1>
+</div>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa perferendis enim, consequatur obcaecati iusto! Quia aliquam, obcaecati explicabo adipisci non. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa perferendis enim, consequatur obcaecati iusto! Quia aliquam, obcaecati explicabo adipisci non.
 </p>
 
-
+<div  class="column-lg-12 column-md-5 column-sd-12">
 <h1 id="beef">Beef</h1>
+</div>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa perferendis enim, consequatur obcaecati iusto! Quia aliquam, obcaecati explicabo adipisci non. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa perferendis enim, consequatur obcaecati iusto! Quia aliquam, obcaecati explicabo adipisci non.
 </p>
+<div  class="column-lg-12 colmn-md-6 colmn-sd-12">
 <h1 id="sushi">Sushi</h1>
+</div>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa perferendis enim, consequatur obcaecati iusto! Quia aliquam, obcaecati explicabo adipisci non. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa perferendis enim, consequatur obcaecati iusto! Quia aliquam, obcaecati explicabo adipisci non.
 </p>
