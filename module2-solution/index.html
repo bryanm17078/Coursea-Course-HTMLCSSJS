@@ -9,6 +9,10 @@
 * {
   box-sizing: border-box;
 }
+  
+  container
+  {position:absolute;}
+  
 	div {
 		position: relative;
 		background-color: gray;
@@ -23,9 +27,9 @@ p {
    background-color: #808080;
   border: 1px solid black;
   float: left;
-  padding: 25px;
-  margin:25px;
-  font-size:70%;
+  padding: 30px;
+  margin:40px;
+  font-size:100%;
   positon:relative;
 }
 #menu {
@@ -33,69 +37,64 @@ p {
   text-align:center;
 
 } 
+  #chicken{
+    position:absolute;
+    float:right;
+    border: 1px solid black;
+    background-color:#FFB6C1;
+    width:5%;
+    height:5%; 
+    right:1330px;
+    font-family: Helvetica;
+    color: black;
+    font-size:100%;
+    text-align:center
+  }
+  #beef{
+      position:absolute;
+    float:right;
+    border: 1px solid black;
+    background-color:#A52A2A;
+     width:5%;
+    height:5%; 
+    right:550px;
+    font-family: Helvetica;
+    color: black;
+    font-size:100%;
+    text-align:center
+  }
+ #sushi{
+    position:absolute;
+    float:right;
+    border: 1px solid black;
+    background-color: #FFFACD;
+     width:5%;
+    height:5%; 
+    right:115px;
+    font-family: Helvetica;
+    color: black;
+    font-size:100%;
+    text-align:center
+  }
 
-
-#chicken {
-  border: 1px solid black;
-  background-color:#FFB6C1;
-  width:5%;
-  height: 30px;
-  position:absolute;
-  font-family: Helvetica;
-  color: black;
-  font-size:70%;
-  text-align:center
-    
-
-
-} 
-#beef {
-  border: 1px solid black;
-  background-color: #A52A2A;
-  width:5%;
-  height: 30px;
-  position:absolute;
-  font-family: Helvetica;
-  color: black;
-  font-size:70%;
-  text-align:center
-
-
-}
-#sushi {
-  border: 1px solid black;
-  background-color: #FFFACD;
-  width:5%;
-  height: 30px;
-  position:absolute;
-  font-family: Helvetica;
-  color: black;
-  font-size:70%;
-  text-align:center
-}
-
-
-section {
-  clear: left;
-}
 
 </style>
 </head>
 <body>
 <h1 id="menu">Our Menu</h1>
 
-<div>
-  <h2 id="chicken">Chicken</h2>
+<div id="container">
+  <p id="chicken">Chicken</p>
   <p id="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa perferendis enim, consequatur obcaecati iusto! Quia aliquam, obcaecati explicabo adipisci non. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa perferendis enim, consequatur obcaecati iusto! Quia aliquam, obcaecati explicabo adipisci non.
 .</p>
   </div>
   <div>
-  <h2 id="beef">Beef</h2>
+  <p id="beef">Beef</p>
   <p id="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa perferendis enim, consequatur obcaecati iusto! Quia aliquam, obcaecati explicabo adipisci non. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa perferendis enim, consequatur obcaecati iusto! Quia aliquam, obcaecati explicabo adipisci non.
 </p>
  </div>
   <div>
-    <h2 id="sushi">Sushi</h2>
+  <p id="sushi">Sushi</p>
    <p id="p3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa perferendis enim, consequatur obcaecati iusto! Quia aliquam, obcaecati explicabo adipisci non. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa perferendis enim, consequatur obcaecati iusto! Quia aliquam, obcaecati explicabo adipisci non.
 </p>
 
