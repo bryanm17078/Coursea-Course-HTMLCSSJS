@@ -3,37 +3,36 @@
   margin:0;
   padding:0;
 }
-  /*desktop version*/
-    @media (min-width: 992px) {
-        .column-lg-12 {
-            float: left;
-            width: 100%;
-        }
-    }
-
-    /*tablet version*/
-    @media (min-width: 768px) and (max-width: 991px){
-        .column-md-5 {
-           float: left;
-           width: 50%;
-           margin-left: auto;
-           margin-right: auto;
-        }
-
-        .column-md-6 {
-            float: left;
-            width: 100%;
-            margin-left: auto;
-            margin-right: auto;
-        }
-    }
-
-    /*mobile version*/
-    @media (max-width: 767px) {
-        .column-sd-12 {
-            float: left;
-            width: 100%;
-            margin-left: auto;
-            margin-right: auto;
-        }
-    }
+@media (min-width: 992px){
+ #p1 {
+    width: 33.3%;
+  }
+  #p2 {
+    width: 33.3%;
+  }
+   #p3 {
+    width:25%;
+  }
+}
+/*------ Tablet ------*/
+@media (min-width: 768px) and (max-width: 991px){
+#p1 {
+    width: 33.3%;
+  }
+  #p2 {
+    width: 33.3%;
+  }
+   #p3 {
+    width: 46.1%;
+  }
+}
+/*------ Mobile ------*/
+@media (max-width: 767px){
+#p1 {
+    width: 100%;
+  }
+  #p2 {
+    width: 100%;
+  }
+   #p3 {
+    width: 100%;
