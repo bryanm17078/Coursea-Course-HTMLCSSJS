@@ -2,29 +2,104 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>module solution</title>
-</head>
 
+<link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
+<title>Module 2 Solution</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+  
+  container
+  {position:absolute;}
+  
+	div {
+		position: relative;
+		background-color: gray;
+
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: auto;
+	}
+
+p {
+   background-color: #808080;
+  border: 1px solid black;
+  float: left;
+  padding: 30px;
+  margin:40px;
+  font-size:100%;
+  positon:relative;
+}
+#menu {
+
+  text-align:center;
+
+} 
+  #chicken{
+    position:absolute;
+    float:right;
+    border: 1px solid black;
+    background-color:#FFB6C1;
+    width:5%;
+    height:5%; 
+    right:1330px;
+    font-family: Helvetica;
+    color: black;
+    font-size:100%;
+    text-align:center
+  }
+  #beef{
+      position:absolute;
+    float:right;
+    border: 1px solid black;
+    background-color:#A52A2A;
+     width:5%;
+    height:5%; 
+    right:550px;
+    font-family: Helvetica;
+    color: black;
+    font-size:100%;
+    text-align:center
+  }
+ #sushi{
+    position:absolute;
+    float:right;
+    border: 1px solid black;
+    background-color: #FFFACD;
+     width:5%;
+    height:5%; 
+    right:115px;
+    font-family: Helvetica;
+    color: black;
+    font-size:100%;
+    text-align:center
+  }
+
+
+</style>
+</head>
 <body>
-<h1>Our Menu </h1>
-	<section class="column-lg-4 colmn-md-6 colmn-sm-12">
-		<div>
-			<p class="chicken">Chicken</p>
-			<p class="content">
-			 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac.
-			</p>
-		</div>
-	</section>
-	<section class="column-lg-4 colmn-md-6 colmn-sm-12">
-		<div>
-			<p class="beef">Beef</p>
-			<p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac.</p>
-		</div>
-	</section>
-	<section class="column-lg-4 colmn-md-12 colmn-sm-12">
-	<div>
-		<p class="sushi">Sushi</p>
-			<p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac.</p>
-	</div>
+<h1 id="menu">Our Menu</h1>
+
+<div id="container">
+  <p id="chicken">Chicken</p>
+  <p id="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa perferendis enim, consequatur obcaecati iusto! Quia aliquam, obcaecati explicabo adipisci non. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa perferendis enim, consequatur obcaecati iusto! Quia aliquam, obcaecati explicabo adipisci non.
+.</p>
+  </div>
+  <div>
+  <p id="beef">Beef</p>
+  <p id="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa perferendis enim, consequatur obcaecati iusto! Quia aliquam, obcaecati explicabo adipisci non. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa perferendis enim, consequatur obcaecati iusto! Quia aliquam, obcaecati explicabo adipisci non.
+</p>
+ </div>
+  <div>
+  <p id="sushi">Sushi</p>
+   <p id="p3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa perferendis enim, consequatur obcaecati iusto! Quia aliquam, obcaecati explicabo adipisci non. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa perferendis enim, consequatur obcaecati iusto! Quia aliquam, obcaecati explicabo adipisci non.
+</p>
+
+</div>
+
+
 </body>
 </html>
