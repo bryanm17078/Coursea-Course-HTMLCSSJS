@@ -83,7 +83,7 @@ span {
     float: left;
   }
 }
-/* Cell phone view */
+/* Phone view */
 @media (max-width: 767px)  {
   
   .col-sx-12 {
