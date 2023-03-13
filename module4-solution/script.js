@@ -37,6 +37,8 @@ WARNING!!! WARNING!!!
 
 var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 
+
+
 // STEP 10: (NOTHING TO DO. ALREADY DONE FOR YOU)
 // Loop over the names array and say either 'Hello' or "Good Bye"
 // using either the helloSpeaker's or byeSpeaker's 'speak' method.
@@ -58,9 +60,9 @@ for (var i = 0; i < names.length; i++) {
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
   if (firstLetter === 'j') {
-    byeSpeaker.speak(names[i]);
+    byeSpeaker(names[i]);
   } else {
-    helloSpeaker.speak(names[i]);
+    helloSpeaker(names[i]);
   }
 }
 
